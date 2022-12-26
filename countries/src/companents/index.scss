@@ -1,0 +1,39 @@
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  #searchside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    input {
+      margin-left: 10px;
+      border-style: none;
+      outline: none;
+    }
+  }
+  select {
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+  }
+}
+.searchfilter {
+  background-color: #fafafa;
+}
+@media only screen and (max-width: 992px) {
+  .search {
+    display: flex;
+    flex-direction: column;
+    #searchside {
+      input,
+      i {
+        width: 100%;
+      }
+    }
+  }
+}

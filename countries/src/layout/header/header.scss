@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+  border-bottom: 1px solid rgb(208, 202, 202);
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.headerdark {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 10vh;
+}
